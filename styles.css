@@ -1,23 +1,28 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 900
-
-.playfair-display-<uniquifier> {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
 .based{
     text-align:center ;
     background-color: #f9f7fe;
 }
-p{
+.based p{
     font-family: poppins, serif;
     font-weight: bold;
     font-size: 36px;
+    margin-top: 130px ;
+
+    
 }
-h1{
+.based h1{
     font-family: playfair display, serif;
     font-weight: bold;
     font-size: 96px;
+    margin-top: 0%;
+    
+}
+.based h2{
+    font-family: poppins serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+.btn btn-primary{
+border-radius: 4px;
+background-color: #6c63ff;
 }
