@@ -1,12 +1,37 @@
 .based{
     text-align:center ;
     background-color: #f9f7fe;
+    padding: 160px 20px;
+    
+}
+h1,h2,p{
+    text-align: center;
+}
+h2{
+    font-family: poppins serif;
+        font-weight: normal;
+        font-size: 24px;
+}
+p{
+    font-family: poppins, serif;
+        font-weight: normal;
+        font-size: 16px;
+        margin-top: 30px;
+        line-height: 1.5;
+}
+.choice{
+    font-weight: normal;
+        font-size: 18px;
+        
 }
 .based p{
     font-family: poppins, serif;
     font-weight: bold;
     font-size: 36px;
-    margin-top: 130px ;
+    margin-top: 130px;
+    padding: 0;
+    line-height: 1.5;
+    
 
     
 }
@@ -22,7 +47,16 @@
     font-weight: normal;
     font-size: 24px;
 }
-.btn btn-primary{
+.btn-branding{
+background: #6c63ff;
 border-radius: 4px;
-background-color: #6c63ff;
+color: white;
+font-size: 18px;
+line-height: 27px;
+padding: 15px 30px;
+
+}
+
+.project-description{
+    padding: 80px 60px;
 }
