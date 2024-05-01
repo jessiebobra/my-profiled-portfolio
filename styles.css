@@ -56,7 +56,29 @@ line-height: 27px;
 padding: 15px 30px;
 
 }
+.btn-branding-outline{
+    color: #6c63ff;
+    border: 1px solid #6c63ff;
+    border-radius: 4px;
+    font-weight: 16px;
+    line-height: 27px;
+    padding:15px 30px ;
+}
 
 .project-description{
     padding: 80px 60px;
+}
+@media(max-width:700){
+
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 44px;
+    }
+    .project-description{
+        padding: 0;
+        text-align: center;
+    }
+
 }
